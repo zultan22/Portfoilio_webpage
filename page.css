@@ -1,0 +1,133 @@
+*{
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+}
+
+body::before{
+	display: block;
+	content: '';
+	height: 50px;
+}
+
+@media(min-width: 768px) {
+	.message-input {
+		width: 50%;
+	}
+}
+
+.header{
+	font-family: Verdana;
+}
+
+.message_box{
+	height: 100px;
+	
+}
+
+.leading{
+	font-size: 30px;
+	font-weight: bold;
+}
+
+.html_col{
+	border: 1px solid orangered;
+	border-radius: 25px;
+	background-color: orangered;
+	font-weight: bold;
+
+}
+
+.css_col{
+	border: 1px solid blue;
+	border-radius: 25px;
+	background-color: blue;
+	font-weight: bold;
+}
+
+
+.js_col{
+	border: 1px solid yellow;
+	border-radius: 25px;
+	background-color: yellow;
+	font-weight: bold;
+}
+
+.boot_col{
+	border: 1px solid magenta;
+	border-radius: 25px;
+	background-color: magenta;
+	font-weight: bold;
+}
+
+.react_col{
+	border: 1px solid royalblue;
+	border-radius: 25px;
+	background-color: royalblue;
+	font-weight: bold;
+}
+
+.footer_color{
+	background-color: #333;
+}
+
+.navbar{
+	box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+}
+
+.folio{
+	color: darkturquoise;
+}
+
+.sultan, .para, .developer, .frontend, .hi{
+	color: limegreen;
+}
+.para{
+	font-weight: bold;
+}
+
+.html_col:hover{
+	background-color: white;
+	color: orangered;
+}
+
+.css_col:hover{
+	background-color: white;
+	color: blue;
+}
+
+.js_col:hover{
+	background-color: white;
+	color: orangered;
+}
+
+.boot_col:hover{
+	background-color: white;
+	color: magenta;
+}
+
+.react_col:hover{
+	background-color: white;
+	color: royalblue;
+}
+
+.contact_btn{
+	background-color: limegreen;
+	padding: 10px 20px;
+	border-radius: 25px;
+	text-decoration: none;
+	margin: 30px;
+}
+
+.contact_btn:hover{
+	background-color: black;
+	color: #fff;
+}
+
+.contact_sec{
+	background-color: brown;
+}
+
+.dark{
+	color: black;
+}
